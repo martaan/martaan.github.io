@@ -17,15 +17,18 @@ footer {
 
 .logo {
   position: absolute;
+  margin-left: -10rem;
   left: 50%;
   top: 2rem;
-  width: 13rem;
-  height: auto;
-  padding: 1rem;
+  width: 10rem;
+  height: 10rem;
+  padding: 2rem;
   background-color: #151515;
   border-radius: 50em;
+  display: flex;
+  align-items: center;
 }
 
-.img {
+img {
   max-width: 100%;
 }
