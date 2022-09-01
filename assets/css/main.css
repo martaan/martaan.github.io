@@ -1,5 +1,10 @@
 html {
   height: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -42,7 +47,7 @@ main {
   width: calc(100% - 8rem);
   margin: 0 auto;
   padding: 2rem;
-  margin: -8rem auto 0 auto;
+  margin: -3rem auto 0 auto;
   background: #fff;
   z-index: 2;
   position: relative;
@@ -53,6 +58,7 @@ main {
 @media (min-width: 68.75rem) {
   .main-container {
     width: calc(100% - 4rem);
+    margin: -8rem auto 0 auto;
   }
 }
 
