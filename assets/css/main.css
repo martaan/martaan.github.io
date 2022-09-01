@@ -17,7 +17,6 @@ body {
 header,
 footer {
   position: relative;
-  padding: 1rem;
   color: #202020;
 }
 
@@ -47,6 +46,7 @@ main {
   max-width: 68.75rem;
   width: calc(100% - 4rem);
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .container--main {
