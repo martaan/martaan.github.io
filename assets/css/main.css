@@ -28,12 +28,13 @@ footer {
 }
 
 header {
-  height: 4rem;
+  height: 6rem;
 }
 
 footer {
   color: #fffffa;
   background-color: #202020;
+  height: 7rem;
 }
 
 main {
@@ -42,10 +43,13 @@ main {
   flex-direction: column;
 }
 
-.main-container {
+.container {
   max-width: 68.75rem;
   width: calc(100% - 4rem);
   margin: 0 auto;
+}
+
+.container--main {
   padding: 2rem;
   margin: -3rem auto 0 auto;
   background: #fff;
@@ -56,8 +60,7 @@ main {
 }
 
 @media (min-width: 68.75rem) {
-  .main-container {
-
+  .container--main {
     margin: -8rem auto 0 auto;
   }
 }
