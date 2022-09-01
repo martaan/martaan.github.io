@@ -14,3 +14,8 @@ footer {
   background: #151515;
   color: #fffffa;
 }
+
+.logo {
+  width: 7rem;
+  height: auto;
+}
