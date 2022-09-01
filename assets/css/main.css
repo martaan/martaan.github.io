@@ -44,7 +44,7 @@ main {
 
 .main-container {
   max-width: 68.75rem;
-  width: calc(100% - 8rem);
+  width: calc(100% - 4rem);
   margin: 0 auto;
   padding: 2rem;
   margin: -3rem auto 0 auto;
@@ -57,7 +57,7 @@ main {
 
 @media (min-width: 68.75rem) {
   .main-container {
-    width: calc(100% - 4rem);
+
     margin: -8rem auto 0 auto;
   }
 }
@@ -67,14 +67,22 @@ main {
   margin-left: -7rem;
   left: 50%;
   top: 1rem;
-  width: 7rem;
-  height: 7rem;
+
   padding: 1.5rem;
   background-color: #202020;
   border-radius: 50em;
   display: flex;
   align-items: center;
 }
+
+@media (min-width: 68.75rem) {
+  .logo {
+    margin-left: -10rem;
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
 
 img {
   max-width: 100%;
