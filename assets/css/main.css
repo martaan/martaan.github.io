@@ -12,7 +12,7 @@ header,
 footer {
   position: relative;
   padding: 1rem;
-  background: #d0d0d0;
+  background: #c0c0c0;
   color: #fffffa;
 }
 
@@ -24,7 +24,7 @@ footer {
   width: 7rem;
   height: 7rem;
   padding: 1.5rem;
-  background-color: #404040;
+  background-color: #202020;
   border-radius: 50em;
   display: flex;
   align-items: center;
