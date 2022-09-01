@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-<title>{{ page.title }}{{ page.subtitle }}</title>
-</head>
-<body>
-
-  {{ content }}
-
-</body>
-
+  <head>
+    <title>
+      {{ page.title }} - {{ page.subtitle }}
+    </title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <header>
+      UONNOU
+      <nav>
+        <ul>
+          <li>Meny</li>
+        </ul>
+      </nav>
+    </header>
+    {{ content }}
+    <footer>
+      Footer
+    </footer>
+  </body>
 </html>
