@@ -12,19 +12,19 @@ header,
 footer {
   position: relative;
   padding: 1rem;
-  background: #151515;
+  background: #d0d0d0;
   color: #fffffa;
 }
 
 .logo {
   position: absolute;
-  margin-left: -10rem;
+  margin-left: -7rem;
   left: 50%;
-  top: 2rem;
-  width: 10rem;
-  height: 10rem;
-  padding: 2rem;
-  background-color: #151515;
+  top: 1rem;
+  width: 7rem;
+  height: 7rem;
+  padding: 1.5rem;
+  background-color: #404040;
   border-radius: 50em;
   display: flex;
   align-items: center;
