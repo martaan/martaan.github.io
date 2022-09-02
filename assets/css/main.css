@@ -67,11 +67,11 @@ main {
 
 .logo {
   position: absolute;
-  margin-left: -3.5rem;
+  margin-left: -4rem;
   left: 50%;
   top: 1rem;
-  width: 7rem;
-  height: 7rem;
+  width: 8rem;
+  height: 8rem;
   padding: 1.5rem;
   background-color: #202020;
   border-radius: 50em;
@@ -79,14 +79,14 @@ main {
   align-items: center;
 }
 
-@media (min-width: 68.75rem) {
+@media (min-width: 50rem) {
   .logo {
-    margin-left: -5rem;
+    margin-left: 3rem;
+    left: 0;
     width: 10rem;
     height: 10rem;
   }
 }
-
 
 img {
   max-width: 100%;
